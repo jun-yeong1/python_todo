@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'polls.apps.PollsConfig', # apps.py 파일에 polls 앱이 있다. 
     'django.contrib.admin', #관리용 사이트
     'django.contrib.auth', #인증 시스템
     'django.contrib.contenttypes', # 컨텐츠 타입을 위한 프레임워크
